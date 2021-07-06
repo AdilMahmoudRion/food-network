@@ -5,6 +5,10 @@
 section {
 	margin-bottom: 30px;
 }
+h1 {
+	font-size: 40px;
+	font-weight: 700;
+}
 .section-unit {
 	display: flex;
 	height: 70vh;
@@ -15,8 +19,7 @@ section {
 	padding-right: 8%;
 }
 .hading-customize {
-	font-size: 40px;
-	padding: 20% 0 5% 0;
+	padding: 18% 0 5% 0;
 }
 span {
 	color: orange;
