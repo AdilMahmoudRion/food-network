@@ -9,13 +9,7 @@ h1 {
 	font-size: 40px;
 	font-weight: 700;
 }
-.heading-section {
-	background: radial-gradient(
-		circle,
-		rgba(255, 153, 102, 1) 0%,
-		rgba(255, 94, 98, 1) 100%
-	);
-}
+
 .header {
 	display: flex;
 	padding: 0 8%;
@@ -36,9 +30,9 @@ h1 {
 	padding: 6px 12px;
 }
 .dav-link ul li a {
-	color: #fff;
+	color: rgb(0, 0, 0);
 	text-decoration: none;
-	font-size: 13px;
+	font-size: 18px;
 	font-weight: 600;
 }
 .section-unit {
