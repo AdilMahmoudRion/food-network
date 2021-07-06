@@ -1,5 +1,9 @@
 * {
 	margin: 0%;
+	font-family: "Poppins", sans-serif;
+}
+section {
+	margin-bottom: 30px;
 }
 .section-unit {
 	display: flex;
@@ -10,7 +14,7 @@
 	padding-left: 8%;
 	padding-right: 8%;
 }
-h1 {
+.hading-customize {
 	font-size: 40px;
 	padding: 20% 0 5% 0;
 }
@@ -31,11 +35,17 @@ a {
 	color: white;
 	border-radius: 20px;
 }
-#bg-image {
-	background-image: url(images/shapes/7.png);
+.bg-image {
 	background-size: cover;
 	padding-top: 40px;
 }
+#bg-image1 {
+	background-image: url(images/shapes/Frame\ 59.jpg);
+}
+#bg-image2 {
+	background-image: url(images/shapes/7.png);
+}
+
 #description-section {
 	text-align: center;
 	padding-bottom: 4%;
@@ -53,4 +63,29 @@ a {
 }
 .row .manu {
 	border-radius: 10px;
+}
+.popularity-section {
+	height: 100px;
+	text-align: center;
+	box-shadow: grey 2px 4px 10px;
+	margin: 58px 6% 0 10%;
+	border-radius: 10px;
+}
+.row .popularity {
+	width: 100%;
+}
+.footer-section {
+	text-align: center;
+	height: 90px;
+	margin-top: 6%;
+	background-color: black;
+	color: rgba(158, 154, 154, 0.699);
+	padding-top: 20px;
+}
+.footer-section .some-comond {
+	color: rgba(238, 241, 241, 0.89);
+}
+.footer-section .copy-right {
+	margin-top: 8px;
+	color: rgba(92, 91, 91, 0.651);
 }
